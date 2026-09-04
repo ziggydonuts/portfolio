@@ -10,7 +10,7 @@
   "lore": {
     "title": "Lore",
     "paragraphs": [
-      "I’m a Computer Science student at Banasthali Vidyapith learning to build practical, reliable software. I spend most of my time writing code, reading widely, and writing to make sense of ideas. Most things I build start with noticing an everyday friction and putting together a clean, working solution for it.  Outside of code, I lead content operations for the Microsoft Student Chapter (MSC-BV), an active 100+ member campus developer community. Earlier on, I also founded Anbhigya, setting up career exposure sessions for high schoolers across under-resourced towns.  I care a lot about high agency, clear written thought, and building systems that remain useful long after they are set up. Good engineering solves the technical constraint, but clear writing and community trust ensure people can actually build on top of it."
+      "I'm a Computer Science student at Banasthali Vidyapith learning to build practical, reliable software. I spend most of my time writing code, reading widely, and writing to make sense of ideas. Most things I build start with noticing an everyday friction and putting together a clean, working solution for it. Outside of code, I lead content operations for the Microsoft Student Chapter (MSC-BV), an active 100+ member campus developer community. Earlier on, I also founded Anbhigya, setting up career exposure sessions for high schoolers across under-resourced towns. I care a lot about high agency, clear written thought, and building systems that remain useful long after they are set up. Good engineering solves the technical constraint, but clear writing and community trust ensure people can actually build on top of it."
     ]
   },
   "projects": [
@@ -38,12 +38,12 @@
   ],
   "bookshelf": {
     "currentlyReading": [
-      { "title": "Man's Search for Meaning", "author": "Viktor Frankl" }
+      { "title": "Man's Search for Meaning", "author": "Viktor Frankl" },
       { "title": "The Beginning of Infinity", "author": "David Deutsch" }
     ],
     "favorites": [
       { "title": "The Catcher in the Rye", "author": "J. D. Salinger" },
-      { "title": "The Bell jar", "author": "Sylvia Plath" }
+      { "title": "The Bell Jar", "author": "Sylvia Plath" }
     ]
   }
 }

@@ -14,10 +14,10 @@ export default function Nav() {
   const pathname = usePathname();
 
   return (
-    <header className="space-y-4">
-      <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-2 text-sm">
+    <header className="space-y-6">
+      <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2">
         <span className="text-ink">{content.site.name}</span>
-        <div className="flex gap-4 text-muted">
+        <div className="flex gap-6 text-muted">
           <a
             href={content.site.githubUrl}
             target="_blank"
@@ -37,7 +37,7 @@ export default function Nav() {
         </div>
       </div>
 
-      <nav className="flex gap-5 border-t border-line pt-4 text-sm">
+      <nav className="flex gap-6">
         {pages.map((page) => {
           const active = pathname === page.href;
           return (
@@ -46,7 +46,7 @@ export default function Nav() {
               href={page.href}
               className={
                 active
-                  ? "text-accent"
+                  ? "italic text-ink"
                   : "text-muted hover:text-ink transition-colors"
               }
             >

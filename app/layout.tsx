@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
-import { IBM_Plex_Mono } from "next/font/google";
+import { Newsreader } from "next/font/google";
 import "./globals.css";
 import content from "@/content.json";
 import Nav from "./nav";
 
-const mono = IBM_Plex_Mono({
+const serif = Newsreader({
   subsets: ["latin"],
-  weight: ["400", "500", "600"],
-  variable: "--font-mono",
+  weight: ["400", "500"],
+  style: ["normal", "italic"],
+  variable: "--font-serif",
 });
 
 export const metadata: Metadata = {
@@ -21,11 +22,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={mono.variable}>
-      <body className="min-h-screen bg-bg text-ink font-mono antialiased">
-        <div className="mx-auto max-w-prose px-6 py-12 sm:py-16">
+    <html lang="en" className={serif.variable}>
+      <body className="min-h-screen bg-bg text-ink font-serif text-lg leading-8 antialiased">
+        <div className="mx-auto max-w-prose px-6 py-16 sm:py-24">
           <Nav />
-          <main className="mt-10">{children}</main>
+          <main className="mt-14">{children}</main>
         </div>
       </body>
     </html>

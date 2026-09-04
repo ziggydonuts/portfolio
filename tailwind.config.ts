@@ -14,16 +14,16 @@ const config: Config = {
         accent: "#a9b98c",
       },
       fontFamily: {
-        mono: [
-          "'IBM Plex Mono'",
-          "ui-monospace",
-          "SFMono-Regular",
-          "Menlo",
-          "monospace",
+        serif: [
+          "'Newsreader'",
+          "ui-serif",
+          "Georgia",
+          "'Times New Roman'",
+          "serif",
         ],
       },
       maxWidth: {
-        prose: "640px",
+        prose: "620px",
       },
     },
   },
