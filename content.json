@@ -1,0 +1,49 @@
+{
+  "site": {
+    "name": "Hrishika Thakur",
+    "tagline": "Computer Science student learning to build reliable software. Deeply interested in books, clear writing, and understanding how things work from first principles.",
+    "email": "hrishikathakur4816@gmail.com",
+    "resumeUrl": "/Hrishikasresume.pdf",
+    "githubUrl": "https://github.com/ziggydonuts",
+    "linkedinUrl": "https://www.linkedin.com/in/hrishikathakur/"
+  },
+  "lore": {
+    "title": "Lore",
+    "paragraphs": [
+      "I’m a Computer Science student at Banasthali Vidyapith learning to build practical, reliable software. I spend most of my time writing code, reading widely, and writing to make sense of ideas. Most things I build start with noticing an everyday friction and putting together a clean, working solution for it.  Outside of code, I lead content operations for the Microsoft Student Chapter (MSC-BV), an active 100+ member campus developer community. Earlier on, I also founded Anbhigya, setting up career exposure sessions for high schoolers across under-resourced towns.  I care a lot about high agency, clear written thought, and building systems that remain useful long after they are set up. Good engineering solves the technical constraint, but clear writing and community trust ensure people can actually build on top of it."
+    ]
+  },
+  "projects": [
+    {
+      "title": "EMEA Fund Strategy Classifier",
+      "year": "2026",
+      "description": "Reads legal fund prospectuses and sorts each fund into one of 21 investment strategies and three risk levels. Instead of treating the process like an unexplainable black box, it pulls 26 clear facts into a structured form and runs them through straightforward, traceable rules. This keeps risk checks auditable and prevents edge-case mistakes on volatile funds.",
+      "link": "https://github.com/ziggydonuts/emea-fund-strategy-classifier",
+      "tags": ["Python", "LLM orchestration", "classification"]
+    },
+    {
+      "title": "DraftBox",
+      "year": "2025",
+      "description": "Takes raw drafts and adapts them across formats, transforming one core idea into tailored posts for LinkedIn, Instagram, and more. It adjusts the pacing, hooks, and layout to match the voice of each platform naturally. Designed to cut the friction of manual cross-posting and keep content workflows moving.",
+      "link": "https://github.com/ziggydonuts/Draftbox",
+      "tags": ["product design", "UX", "versioning"]
+    },
+    {
+      "title": "Anbhigya",
+      "year": "2021",
+      "description": "At 16, during the pandemic, I started Anbhigya to create the career guidance my peers and I were suddenly cut off from. With zero budget, I cold-messaged professionals across industries and hosted live sessions to connect them directly with students. It taught me that resourcefulness comes from acting before you feel ready—a mindset that still drives how I build today.",
+      "link": "https://silver-polka-6a6.notion.site/3adcbb17747544889209f634cdcec8c4?v=9c4c4555b93e4e6290a9727ab771efff",
+      "tags": ["education", "community"]
+    }
+  ],
+  "bookshelf": {
+    "currentlyReading": [
+      { "title": "Man's Search for Meaning", "author": "Viktor Frankl" }
+      { "title": "The Beginning of Infinity", "author": "David Deutsch" }
+    ],
+    "favorites": [
+      { "title": "The Catcher in the Rye", "author": "J. D. Salinger" },
+      { "title": "The Bell jar", "author": "Sylvia Plath" }
+    ]
+  }
+}

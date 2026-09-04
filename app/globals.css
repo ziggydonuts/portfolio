@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: local("IBM Plex Mono");
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background-color: #0c0c0b;
+  color: #e9e6dc;
+}
+
+::selection {
+  background-color: #a9b98c;
+  color: #0c0c0b;
+}
+
+a {
+  text-underline-offset: 3px;
+  text-decoration-color: #57554c;
+}
+
+a:hover {
+  text-decoration-color: #a9b98c;
+}
+
+*:focus-visible {
+  outline: 1px solid #a9b98c;
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
